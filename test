@@ -1,0 +1,13 @@
+words = ["hello" , "goodbye", "suck my cock"]
+
+while True:
+    UI = input("hi i am your personal chatbot!\n")
+    if words.index(UI) == 0:
+        print("hello!")
+    elif words.index(UI) == 1:
+        print("goodbye!")
+    elif words.index(UI) == 2:
+        print("yes i will suck it very well")
+    else:
+            print("sorry i cant understand")
+            break
